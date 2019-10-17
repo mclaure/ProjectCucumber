@@ -1,0 +1,109 @@
+[
+  {
+    "description": "    I should be able to go to a website\n    and check its search functionality   ",
+    "elements": [
+      {
+        "id": "google-search-testing;google-search-for-voter-cards-app",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Google search for voter cards app",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I search Google for \"itunes vote cards app\"",
+            "result": {
+              "status": "passed",
+              "duration": 7636074500
+            },
+            "line": 6,
+            "match": {
+              "location": "e:\\Trainings\\ProjectCucumber\\step-definitions\\google-search-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see \"Vote Cards\" in the result",
+            "result": {
+              "status": "passed",
+              "duration": 112428400
+            },
+            "line": 7,
+            "match": {
+              "location": "e:\\Trainings\\ProjectCucumber\\step-definitions\\google-search-steps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4352331901
+            },
+            "hidden": true,
+            "match": {
+              "location": "e:\\Trainings\\ProjectCucumber\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "google-search-testing;i-evaluate-search-for-sum-of-1+1",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "I evaluate search for sum of 1+1",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter \"1+1\" in input",
+            "result": {
+              "status": "passed",
+              "duration": 5569399100
+            },
+            "line": 9,
+            "match": {
+              "location": "e:\\Trainings\\ProjectCucumber\\step-definitions\\google-search-steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I get \"2\" in the result",
+            "result": {
+              "status": "passed",
+              "duration": 46234899
+            },
+            "line": 10,
+            "match": {
+              "location": "e:\\Trainings\\ProjectCucumber\\step-definitions\\google-search-steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4347238300
+            },
+            "hidden": true,
+            "match": {
+              "location": "e:\\Trainings\\ProjectCucumber\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "google-search-testing",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Google Search Testing",
+    "tags": [],
+    "uri": "e:/Trainings/ProjectCucumber/features/google-search.feature"
+  }
+]

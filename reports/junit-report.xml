@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="google-search-testing;google-search-for-voter-cards-app" tests="2" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="e:/Trainings/ProjectCucumber/features/google-search.feature">
+            </property>
+        </properties>
+        <testcase name="When I search Google for &quot;itunes vote cards app&quot;" classname="google-search-testing;google-search-for-voter-cards-app" time="7.6360745">
+        </testcase>
+        <testcase name="Then I should see &quot;Vote Cards&quot; in the result" classname="google-search-testing;google-search-for-voter-cards-app" time="0.1124284">
+        </testcase>
+    </testsuite>
+    <testsuite name="google-search-testing;i-evaluate-search-for-sum-of-1+1" tests="2" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="e:/Trainings/ProjectCucumber/features/google-search.feature">
+            </property>
+        </properties>
+        <testcase name="When I enter &quot;1+1&quot; in input" classname="google-search-testing;i-evaluate-search-for-sum-of-1+1" time="5.5693991">
+        </testcase>
+        <testcase name="Then I get &quot;2&quot; in the result" classname="google-search-testing;i-evaluate-search-for-sum-of-1+1" time="0.046234899">
+        </testcase>
+    </testsuite>
+</testsuites>
